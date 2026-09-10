@@ -33,7 +33,7 @@ if st.button("Analyze My Career"):
         with st.spinner("🤖 AI is analyzing your career profile..."):
 
             response = client.models.generate_content(
-                model="gemini-3.7-flash",
+                model="gemini-3.6-flash",
                 contents=f"""
     You are an expert AI career advisor.
 
